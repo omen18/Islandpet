@@ -84,6 +84,65 @@ No AI black boxes. No randomness. Just a **well-designed personality engine** th
 
 <br/>
 
+### Architecture
+
+```
+IslandPet/
+├── App/
+│   ├── IslandPetApp.swift          # ModelContainer with App Group, graceful DB fallback
+│   ├── RootView.swift              # Onboarding gate, environment injection
+│   └── AppShell.swift             # VM ownership via VMLoader, EnvironmentObject injection
+│
+├── Models/                         # SwiftData @Model types
+│   ├── Pet.swift                   # Core entity: stage, XP, mood, traits, memories
+│   ├── FocusSession.swift          # Session records with duration, completion, XP delta
+│   ├── Achievement.swift           # Unlock conditions + progress tracking
+│   ├── ShopItem.swift              # Soft-currency cosmetic items
+│   ├── ChatMessage.swift           # Local chat history
+│   └── AppSettings.swift          # Singleton: streak, freezes, onboarding state
+│
+├── ViewModels/
+│   ├── PetViewModel.swift          # XP system, mood decay loop, evolution triggers
+│   └── TimerViewModel.swift        # Pomodoro engine + Live Activity lifecycle
+│
+├── Services/
+│   ├── LiveActivityService.swift   # ActivityKit: start/update/end Dynamic Island
+│   ├── WidgetSnapshotService.swift # App Group bridge — syncs state to widgets
+│   ├── AchievementService.swift    # Tracks unlock conditions across all event types
+│   ├── HapticsService.swift        # 10-beat CoreHaptics score (named CHHapticPatterns)
+│   ├── PetPersonality.swift        # Traits + memory + voice — offline, deterministic
+│   ├── NotificationService.swift   # 3 retention loops: streak-saver, sad-pet, completion
+│   └── TodayStatsService.swift     # Real @Query-driven daily metrics
+│
+├── Views/
+│   ├── Onboarding/                 # 5-page flow with notification ask, species picker
+│   ├── Home/                       # Redesigned: pet hero, stats bar, personality greeting
+│   ├── Timer/                      # Redesigned: dual-ring, floating pet, digit transitions
+│   ├── Profile/                    # Redesigned: traits, heatmap, shareable personality card
+│   ├── Shop/                       # Soft currency cosmetics store
+│   ├── Chat/                       # Local rule-driven pet dialogue
+│   └── Components/                 # Glass cards, stat pills, aurora background, animations
+│
+├── Motion/
+│   ├── Motion.swift                # Named curves, cascade modifier, breathe, shimmer
+│   └── Theme.swift                 # Design tokens: Tokens.Space, colors, gradients
+│
+├── Intents/
+│   └── StopFocusIntent.swift       # LiveActivityIntent: stop session from Dynamic Island
+│
+└── EvolutionCinematicView.swift    # Full-screen moment: particles, haptics, share card
+
+IslandPetWidget/
+├── IslandPetWidgetBundle.swift
+├── IslandPetLockWidget.swift       # 5 lock screen families
+└── IslandPetLiveActivity.swift     # Dynamic Island: compact / minimal / expanded
+
+Shared/
+└── PetActivityAttributes.swift     # In both targets — the bridge between app and island
+```
+
+<br/>
+
 ### 📍 Dynamic Island Integration
 
 This is where IslandPet gets wild.
