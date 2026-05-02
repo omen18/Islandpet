@@ -247,8 +247,6 @@ The design language — **glassmorphism + gradient-based surfaces + custom motio
 
 ---
 
-## ✦ Screenshots
-
 <br/>
 
 
