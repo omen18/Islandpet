@@ -338,9 +338,9 @@ B.Tech CSE (AI/ML)
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-@yourusername-181717?style=for-the-badge&logo=github)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-[![Twitter](https://img.shields.io/badge/Twitter-@yourhandle-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com)
+[![GitHub](https://img.shields.io/badge/GitHub-@omen18-181717?style=for-the-badge&logo=github)](https://github.com/omen18)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yashraj10/)
+[![Twitter](https://img.shields.io/badge/Twitter-@therealyash_17-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/therealyash_17)
 
 </div>
 
