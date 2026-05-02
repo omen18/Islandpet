@@ -251,14 +251,7 @@ The design language — **glassmorphism + gradient-based surfaces + custom motio
 
 <br/>
 
-> *Screenshots / demo GIFs coming soon*
 
-| Home Screen | Focus Session | Dynamic Island | Evolution |
-|:-----------:|:-------------:|:--------------:|:---------:|
-| 📸 | 📸 | 📸 | 📸 |
-| Pet idle state | Live timer + mood | Island companion | Cinematic moment |
-
-<br/>
 
 ---
 
