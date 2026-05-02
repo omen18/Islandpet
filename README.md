@@ -247,12 +247,6 @@ The design language — **glassmorphism + gradient-based surfaces + custom motio
 
 ---
 
-<br/>
-
-
-
----
-
 ## ✦ Getting Started
 
 ### Prerequisites
@@ -337,8 +331,8 @@ That's the gap IslandPet fills.
 
 <br/>
 
-**Yash Raj**  
-B.Tech CSE (AI/ML) — SRM Institute of Science and Technology  
+**Yash Raj Sharan**  
+B.Tech CSE (AI/ML) 
 
 *Aspiring software engineer obsessed with building products that feel as good as they work.*
 
