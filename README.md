@@ -140,6 +140,11 @@ IslandPetWidget/
 Shared/
 └── PetActivityAttributes.swift     # In both targets — the bridge between app and island
 ```
+<img width="247" height="587" src="https://github.com/user-attachments/assets/e3c7dc4d-605f-4d95-84d2-f1a6448e55cd" />
+
+<br><br>
+
+<img width="254" height="588" src="https://github.com/user-attachments/assets/0b8655d4-0b6b-47c7-a395-f8da569b68ac" />
 
 <br/>
 
