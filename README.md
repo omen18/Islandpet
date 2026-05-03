@@ -21,7 +21,7 @@
 [![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org)
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-Native-blue?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/swiftui/)
 [![Xcode](https://img.shields.io/badge/Xcode-15%2B-1575F9?style=for-the-badge&logo=xcode&logoColor=white)](https://developer.apple.com/xcode/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
 
 <br/>
 
@@ -379,7 +379,7 @@ From  streaks     →  to  stories
 
 ---
 
-*Built with obsession by Yash Raj · MIT License · Open Source*
+*Built with obsession by Yash Raj · Open Source*
 
 <br/>
 
